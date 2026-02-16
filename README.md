@@ -59,12 +59,12 @@ redux-counter/
 ├── public/
 ├── src/
 │   ├── assets/
+    ├── app/
+        ├── store.js
+    ├── features
+        ├── counterSlice.js 
 │   ├── components/
         ├── Counter.jsx
-        ├── Navbar.jsx
-        ├── ThemeToggle.jsx
-    ├── context
-        ├── GlobalContext.jsx
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── App.css
@@ -79,13 +79,19 @@ redux-counter/
 ```
 ## 📸 UI Screenshots
 
-###  LIGHT Page UI
-![LIGHT UI](Photos/light.png)
+###  ➕ Increment Counter
+![LIGHT UI](Photos/add_redux.png)
 
 ---
 
-###  DARK Page UI
-![DARK UI](Photos/dark.png)
+### ➖ Decrement Counter
+![DARK UI](Photos/minus_redux.png)
+
+---
+
+### 0 Reset Counter
+![DARK UI](Photos/reset_redux.png)
+
 
 ---
 
