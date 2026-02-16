@@ -49,26 +49,47 @@ This helps to:
 
 ---
 
+---
+
 ## 📂 Project Structure
 
-FULL-STACK-EXP-4/
+```
+redux-counter/
 │
-├── redux-counter/
-│ ├── src/
-│ │ ├── app/
-│ │ │ └── store.js
-│ │ ├── components/
-│ │ │ └── Counter.jsx
-│ │ ├── features/
-│ │ ├── App.jsx
-│ │ └── main.jsx
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+        ├── Counter.jsx
+        ├── Navbar.jsx
+        ├── ThemeToggle.jsx
+    ├── context
+        ├── GlobalContext.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
 │
-├── Photos/
-│ ├── add_redux.png
-│ ├── minus_redux.png
-│ └── reset_redux.png
+├── photos/
+│   ├── dark.png
+│   ├── light.png
+│   
 │
-└── README.md
+├── package.json
+└── vite.config.js
+```
+---
+
+## 📸 UI Screenshots
+
+### 🏠 LIGHT Page UI
+![LIGHT UI](photos/light.png)
+
+---
+
+### ℹ️ About Page UI
+![DARK UI](photos/dark.png)
+
+---
 
 
 ---
