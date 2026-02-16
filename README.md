@@ -107,3 +107,151 @@ npm install
 4️⃣ Run Development Server
 npm run dev
 Open browser → http://localhost:5173
+
+
+# 🌐 Global State Management using React Context API
+
+This project demonstrates **Global State Management** in a React Single Page Application using the **React Context API**.
+
+It allows components to share data globally without prop drilling, making state management simpler and more efficient.
+
+---
+
+## 🎯 Aim
+
+To implement global state management in a Single Page Application using the React Context API.
+
+---
+
+## 🧠 Theory
+
+In React applications, passing data through multiple components using props can become complex. This is called **prop drilling**.
+
+The **Context API** provides a way to share global data such as:
+
+- Themes (Light / Dark)
+- User information
+- Application settings
+- Counter state
+
+across components without passing props manually at every level.
+
+Key React functions used:
+
+- `createContext()` → creates global context
+- `Context.Provider` → provides global state
+- `useContext()` → consumes global state
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- JavaScript
+- CSS
+- Node.js
+
+---
+
+## ⚙️ Features
+
+✅ Global state management  
+✅ Theme switching (Light / Dark mode)  
+✅ Shared counter state  
+✅ No prop drilling  
+✅ Clean UI  
+
+---
+
+## 📂 Project Structure
+
+```
+context-lab/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Counter.jsx
+│   │   ├── Navbar.jsx
+│   │   └── ThemeToggle.jsx
+│   │
+│   ├── context/
+│   │   └── GlobalContext.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+│
+├── Photos/
+│   ├── light.png
+│   └── dark.png
+│
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/Shivi714/Full-Stack-EXP-4.git
+```
+
+### 2️⃣ Go to Project Folder
+```bash
+cd context-lab
+```
+
+### 3️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 4️⃣ Run Development Server
+```bash
+npm run dev
+```
+
+Open browser → http://localhost:5173
+
+---
+
+## 📸 UI Screenshots
+
+### 🌞 Light Mode
+![Light Mode](Photos/light.png)
+
+---
+
+### 🌙 Dark Mode
+![Dark Mode](Photos/dark.png)
+
+
+---
+
+## 📈 Benefits of Context API
+
+- Eliminates prop drilling
+- Centralized state management
+- Cleaner component structure
+- Better scalability
+- Easy theme handling
+
+---
+
+## 👩‍💻 Author
+
+**Shivali**
+
+GitHub: https://github.com/Shivi714
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
