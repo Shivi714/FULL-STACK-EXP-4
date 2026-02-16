@@ -77,20 +77,15 @@ redux-counter/
 ├── package.json
 └── vite.config.js
 ```
----
-
 ## 📸 UI Screenshots
 
-### 🏠 LIGHT Page UI
+###  LIGHT Page UI
 ![LIGHT UI](photos/light.png)
 
 ---
 
-### ℹ️ About Page UI
+###  DARK Page UI
 ![DARK UI](photos/dark.png)
-
----
-
 
 ---
 
