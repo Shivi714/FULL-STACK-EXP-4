@@ -80,12 +80,12 @@ redux-counter/
 ## 📸 UI Screenshots
 
 ###  LIGHT Page UI
-![LIGHT UI](photos/light.png)
+![LIGHT UI](Photos/light.png)
 
 ---
 
 ###  DARK Page UI
-![DARK UI](photos/dark.png)
+![DARK UI](Photos/dark.png)
 
 ---
 
