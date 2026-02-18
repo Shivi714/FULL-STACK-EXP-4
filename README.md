@@ -108,7 +108,7 @@ npm install
 npm run dev
 Open browser → http://localhost:5173
 
-
+---
 # 🌐 Global State Management using React Context API
 
 This project demonstrates **Global State Management** in a React Single Page Application using the **React Context API**.
